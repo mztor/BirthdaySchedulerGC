@@ -55,6 +55,7 @@ function AddAnnouncement(){
     
   }
   
+  //This loop checks to see if the class codes are valid
   var proceed = true;
   for (i=0;i<classes.length;i++){
     if (classes[i] == courseIds[i]) {
